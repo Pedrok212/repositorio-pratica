@@ -1,0 +1,47 @@
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: blueviolet;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#busca{
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px; 
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 0 auto;
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blueviolet;
+}
+
